@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Vault</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎬 Movie Vault</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <div class="category-dropdown">
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="Hollywood">Hollywood</option>
+      <option value="Bollywood">Bollywood</option>
+      <option value="South Indian Dubbed">South Indian Dubbed</option>
+    </select>
+  </div>
+
+  <div class="movie-grid" id="movieGrid"></div>
+
+  <script src="js/theme.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
